@@ -6,6 +6,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, CallbackContext
 from datetime import datetime, timedelta
 from time import time
+from keep_alive import keep_alive
+keep_alive()
 
 # Telegram Bot Token
 TOKEN = '7419862491:AAF4K2cy7TMvALRLAMzReQHtDf6-C9RYI_s'
