@@ -2,3 +2,5 @@ python-telegram-bot
 playwright
 Pillow
 apscheduler
+aiogram==2.23.1
+flask
